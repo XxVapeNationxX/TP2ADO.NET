@@ -20,31 +20,31 @@ namespace TP2_ASP.NET
         private void Menu_Load(object sender, EventArgs e)
         {
             Start.Enabled = false;
-            Joueur1.Clear();
-            Joueur2.Clear();
-            Joueur3.Clear();
-            Joueur4.Clear();
+            Joueur1Prenom.Clear();
+            Joueur2Prenom.Clear();
+            Joueur3Prenom.Clear();
+            Joueur4Prenom.Clear();
         }
 
         private void Start_Click(object sender, EventArgs e)
         {
             Form1 Jeu = new Form1();
-            Jeu.UserName1 = Joueur1.Text;
-            Jeu.UserName2 = Joueur2.Text;
-            if(!string.IsNullOrWhiteSpace(Joueur3.Text))
+            Jeu.UserName1 = Joueur1Prenom.Text;
+            Jeu.UserName2 = Joueur2Prenom.Text;
+            if(!string.IsNullOrWhiteSpace(Joueur3Prenom.Text))
             {
-                Jeu.UserName3 = Joueur3.Text;
+                Jeu.UserName3 = Joueur3Prenom.Text;
             }
-            if (!string.IsNullOrWhiteSpace(Joueur4.Text))
+            if (!string.IsNullOrWhiteSpace(Joueur4Prenom.Text))
             {
-                Jeu.UserName4 = Joueur4.Text;
+                Jeu.UserName4 = Joueur4Prenom.Text;
             }
             Jeu.ShowDialog();
         }
 
         private void Joueur2_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!string.IsNullOrWhiteSpace(Joueur1.Text) && !string.IsNullOrWhiteSpace(Joueur2.Text))
+            if (!string.IsNullOrWhiteSpace(Joueur1Prenom.Text) && !string.IsNullOrWhiteSpace(Joueur2Prenom.Text))
             {
                 Start.Enabled = true;
             }
@@ -56,7 +56,7 @@ namespace TP2_ASP.NET
 
         private void Joueur2_TextChanged(object sender, EventArgs e)
         {
-            if (!string.IsNullOrWhiteSpace(Joueur1.Text) && !string.IsNullOrWhiteSpace(Joueur2.Text))
+            if (!string.IsNullOrWhiteSpace(Joueur1Prenom.Text) && !string.IsNullOrWhiteSpace(Joueur2Prenom.Text))
             {
                 Start.Enabled = true;
             }

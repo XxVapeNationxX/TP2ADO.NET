@@ -35,10 +35,16 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.Joueur1 = new System.Windows.Forms.TextBox();
-            this.Joueur2 = new System.Windows.Forms.TextBox();
-            this.Joueur3 = new System.Windows.Forms.TextBox();
-            this.Joueur4 = new System.Windows.Forms.TextBox();
+            this.Joueur1Prenom = new System.Windows.Forms.TextBox();
+            this.Joueur2Prenom = new System.Windows.Forms.TextBox();
+            this.Joueur3Prenom = new System.Windows.Forms.TextBox();
+            this.Joueur4Prenom = new System.Windows.Forms.TextBox();
+            this.Joueur1Nom = new System.Windows.Forms.TextBox();
+            this.Joueur2Nom = new System.Windows.Forms.TextBox();
+            this.Joueur3Nom = new System.Windows.Forms.TextBox();
+            this.Joueur4Nom = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -111,55 +117,113 @@
             this.label5.TabIndex = 7;
             this.label5.Text = "Joueur 4:";
             // 
-            // Joueur1
+            // Joueur1Prenom
             // 
-            this.Joueur1.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Joueur1.Location = new System.Drawing.Point(250, 140);
-            this.Joueur1.Name = "Joueur1";
-            this.Joueur1.Size = new System.Drawing.Size(326, 29);
-            this.Joueur1.TabIndex = 8;
-            this.Joueur1.TextChanged += new System.EventHandler(this.Joueur2_TextChanged);
-            this.Joueur1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Joueur2_KeyPress);
+            this.Joueur1Prenom.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Joueur1Prenom.Location = new System.Drawing.Point(250, 140);
+            this.Joueur1Prenom.Name = "Joueur1Prenom";
+            this.Joueur1Prenom.Size = new System.Drawing.Size(147, 29);
+            this.Joueur1Prenom.TabIndex = 8;
+            this.Joueur1Prenom.TextChanged += new System.EventHandler(this.Joueur2_TextChanged);
+            this.Joueur1Prenom.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Joueur2_KeyPress);
             // 
-            // Joueur2
+            // Joueur2Prenom
             // 
-            this.Joueur2.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Joueur2.Location = new System.Drawing.Point(250, 187);
-            this.Joueur2.Name = "Joueur2";
-            this.Joueur2.Size = new System.Drawing.Size(326, 29);
-            this.Joueur2.TabIndex = 9;
-            this.Joueur2.TextChanged += new System.EventHandler(this.Joueur2_TextChanged);
-            this.Joueur2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Joueur2_KeyPress);
+            this.Joueur2Prenom.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Joueur2Prenom.Location = new System.Drawing.Point(250, 187);
+            this.Joueur2Prenom.Name = "Joueur2Prenom";
+            this.Joueur2Prenom.Size = new System.Drawing.Size(147, 29);
+            this.Joueur2Prenom.TabIndex = 9;
+            this.Joueur2Prenom.TextChanged += new System.EventHandler(this.Joueur2_TextChanged);
+            this.Joueur2Prenom.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Joueur2_KeyPress);
             // 
-            // Joueur3
+            // Joueur3Prenom
             // 
-            this.Joueur3.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Joueur3.Location = new System.Drawing.Point(250, 238);
-            this.Joueur3.Name = "Joueur3";
-            this.Joueur3.Size = new System.Drawing.Size(326, 29);
-            this.Joueur3.TabIndex = 10;
-            this.Joueur3.TextChanged += new System.EventHandler(this.Joueur2_TextChanged);
-            this.Joueur3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Joueur2_KeyPress);
+            this.Joueur3Prenom.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Joueur3Prenom.Location = new System.Drawing.Point(250, 238);
+            this.Joueur3Prenom.Name = "Joueur3Prenom";
+            this.Joueur3Prenom.Size = new System.Drawing.Size(147, 29);
+            this.Joueur3Prenom.TabIndex = 10;
+            this.Joueur3Prenom.TextChanged += new System.EventHandler(this.Joueur2_TextChanged);
+            this.Joueur3Prenom.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Joueur2_KeyPress);
             // 
-            // Joueur4
+            // Joueur4Prenom
             // 
-            this.Joueur4.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Joueur4.Location = new System.Drawing.Point(250, 289);
-            this.Joueur4.Name = "Joueur4";
-            this.Joueur4.Size = new System.Drawing.Size(326, 29);
-            this.Joueur4.TabIndex = 11;
-            this.Joueur4.TextChanged += new System.EventHandler(this.Joueur2_TextChanged);
-            this.Joueur4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Joueur2_KeyPress);
+            this.Joueur4Prenom.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Joueur4Prenom.Location = new System.Drawing.Point(250, 289);
+            this.Joueur4Prenom.Name = "Joueur4Prenom";
+            this.Joueur4Prenom.Size = new System.Drawing.Size(147, 29);
+            this.Joueur4Prenom.TabIndex = 11;
+            this.Joueur4Prenom.TextChanged += new System.EventHandler(this.Joueur2_TextChanged);
+            this.Joueur4Prenom.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Joueur2_KeyPress);
+            // 
+            // Joueur1Nom
+            // 
+            this.Joueur1Nom.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Joueur1Nom.Location = new System.Drawing.Point(423, 140);
+            this.Joueur1Nom.Name = "Joueur1Nom";
+            this.Joueur1Nom.Size = new System.Drawing.Size(153, 29);
+            this.Joueur1Nom.TabIndex = 12;
+            // 
+            // Joueur2Nom
+            // 
+            this.Joueur2Nom.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Joueur2Nom.Location = new System.Drawing.Point(423, 188);
+            this.Joueur2Nom.Name = "Joueur2Nom";
+            this.Joueur2Nom.Size = new System.Drawing.Size(153, 29);
+            this.Joueur2Nom.TabIndex = 13;
+            // 
+            // Joueur3Nom
+            // 
+            this.Joueur3Nom.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Joueur3Nom.Location = new System.Drawing.Point(423, 239);
+            this.Joueur3Nom.Name = "Joueur3Nom";
+            this.Joueur3Nom.Size = new System.Drawing.Size(153, 29);
+            this.Joueur3Nom.TabIndex = 14;
+            // 
+            // Joueur4Nom
+            // 
+            this.Joueur4Nom.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Joueur4Nom.Location = new System.Drawing.Point(423, 290);
+            this.Joueur4Nom.Name = "Joueur4Nom";
+            this.Joueur4Nom.Size = new System.Drawing.Size(153, 29);
+            this.Joueur4Nom.TabIndex = 15;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Nirmala UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(418, 104);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(62, 30);
+            this.label6.TabIndex = 16;
+            this.label6.Text = "Nom";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Nirmala UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(245, 104);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(90, 30);
+            this.label7.TabIndex = 17;
+            this.label7.Text = "Prenom";
             // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.Joueur4);
-            this.Controls.Add(this.Joueur3);
-            this.Controls.Add(this.Joueur2);
-            this.Controls.Add(this.Joueur1);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.Joueur4Nom);
+            this.Controls.Add(this.Joueur3Nom);
+            this.Controls.Add(this.Joueur2Nom);
+            this.Controls.Add(this.Joueur1Nom);
+            this.Controls.Add(this.Joueur4Prenom);
+            this.Controls.Add(this.Joueur3Prenom);
+            this.Controls.Add(this.Joueur2Prenom);
+            this.Controls.Add(this.Joueur1Prenom);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -168,7 +232,7 @@
             this.Controls.Add(this.Start);
             this.Controls.Add(this.label1);
             this.Name = "Menu";
-            this.Text = "Menu";
+            this.Text = "v";
             this.Load += new System.EventHandler(this.Menu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -185,9 +249,15 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox Joueur1;
-        private System.Windows.Forms.TextBox Joueur2;
-        private System.Windows.Forms.TextBox Joueur3;
-        private System.Windows.Forms.TextBox Joueur4;
+        private System.Windows.Forms.TextBox Joueur1Prenom;
+        private System.Windows.Forms.TextBox Joueur2Prenom;
+        private System.Windows.Forms.TextBox Joueur3Prenom;
+        private System.Windows.Forms.TextBox Joueur4Prenom;
+        private System.Windows.Forms.TextBox Joueur1Nom;
+        private System.Windows.Forms.TextBox Joueur2Nom;
+        private System.Windows.Forms.TextBox Joueur3Nom;
+        private System.Windows.Forms.TextBox Joueur4Nom;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
     }
 }
