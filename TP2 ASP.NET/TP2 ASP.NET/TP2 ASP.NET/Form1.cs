@@ -14,31 +14,24 @@ namespace TP2_ASP.NET
 {
     public partial class Form1 : Form
     {
-        public string UserName1;
-        public string UserName2;
-        public string UserName3;
-        public string UserName4;
-
+        public User Joueur1;
+        public User Joueur2;
+        public User Joueur3;
+        public User Joueur4;
         public Form1()
         {
             InitializeComponent();
         }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Form1_Load(object sender, EventArgs e)
         {
-            User1.Text = UserName1;
-            User2.Text = UserName2;
-            if(UserName3 != null)
+            User1.Text = Joueur1.Prenom;
+            User2.Text = Joueur2.Prenom;
+            if(Joueur3.Id != -1)
             {
-                User3.Text = UserName3;
-                if(UserName4 != null)
+                User3.Text = Joueur3.Prenom;
+                if(Joueur4.Id != -1)
                 {
-                    User4.Text = UserName4;
+                    User4.Text = Joueur4.Prenom;
                 }
             }
             else
