@@ -35,17 +35,21 @@ namespace TP2_ASP.NET
             Form1 Jeu = new Form1();
             Joueur1.Prenom = Joueur1Prenom.Text;
             Joueur1.Nom = Joueur1Nom.Text;
+            Joueur1.Id = 1;
             Joueur2.Prenom = Joueur2Prenom.Text;
             Joueur2.Nom = Joueur2Nom.Text;
+            Joueur1.Id = 2;
             if (!string.IsNullOrWhiteSpace(Joueur3Prenom.Text) && !string.IsNullOrWhiteSpace(Joueur3Nom.Text))
             {
                 Joueur3.Prenom = Joueur3Prenom.Text;
                 Joueur3.Nom = Joueur3Nom.Text;
+                Joueur3.Id = 3;
             }
             if (!string.IsNullOrWhiteSpace(Joueur4Prenom.Text) && !string.IsNullOrWhiteSpace(Joueur4Nom.Text))
             {
                 Joueur4.Prenom = Joueur4Prenom.Text;
                 Joueur4.Nom = Joueur4Nom.Text;
+                Joueur4.Id = 4;
             }
             Jeu.Joueur1 = Joueur1;
             Jeu.Joueur2 = Joueur2;
