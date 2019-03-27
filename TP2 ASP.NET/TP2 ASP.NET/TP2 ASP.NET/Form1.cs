@@ -43,6 +43,7 @@ namespace TP2_ASP.NET
 
         private void FinDeTour()
         {
+            //Gérer la flèche
             if (Fleche1.Enabled == true)
             {
                 Fleche1.Enabled = false;
@@ -63,6 +64,11 @@ namespace TP2_ASP.NET
                 Fleche4.Enabled = false;
                 Fleche1.Enabled = true;
             }
+        }
+
+        private void PartieGagné()
+        {
+
         }
     }
 }
