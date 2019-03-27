@@ -45,6 +45,7 @@
             this.Joueur4Nom = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.Admin = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -217,11 +218,26 @@
             this.label7.TabIndex = 17;
             this.label7.Text = "Prenom";
             // 
+            // Admin
+            // 
+            this.Admin.BackColor = System.Drawing.Color.Firebrick;
+            this.Admin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Admin.Cursor = System.Windows.Forms.Cursors.Default;
+            this.Admin.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Admin.Location = new System.Drawing.Point(703, 12);
+            this.Admin.Name = "Admin";
+            this.Admin.Size = new System.Drawing.Size(85, 49);
+            this.Admin.TabIndex = 18;
+            this.Admin.Text = "Admin";
+            this.Admin.UseVisualStyleBackColor = false;
+            this.Admin.Click += new System.EventHandler(this.Admin_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Admin);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.Joueur4Nom);
@@ -240,7 +256,7 @@
             this.Controls.Add(this.Start);
             this.Controls.Add(this.label1);
             this.Name = "Menu";
-            this.Text = "v";
+            this.Text = "Menu";
             this.Load += new System.EventHandler(this.Menu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -267,5 +283,6 @@
         private System.Windows.Forms.TextBox Joueur4Nom;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button Admin;
     }
 }

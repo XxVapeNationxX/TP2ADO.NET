@@ -144,11 +144,11 @@
             // Catégorie
             // 
             this.Catégorie.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Catégorie.Location = new System.Drawing.Point(8, 31);
+            this.Catégorie.Location = new System.Drawing.Point(21, 31);
             this.Catégorie.Name = "Catégorie";
             this.Catégorie.Size = new System.Drawing.Size(137, 23);
             this.Catégorie.TabIndex = 6;
-            this.Catégorie.Text = "Choisir une catégorie";
+            this.Catégorie.Text = "Piger une question";
             this.Catégorie.UseVisualStyleBackColor = true;
             // 
             // groupBox1
@@ -168,21 +168,21 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(8, 110);
+            this.button2.Location = new System.Drawing.Point(21, 111);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(137, 23);
             this.button2.TabIndex = 8;
-            this.button2.Text = "Choisir une question";
+            this.button2.Text = "Supprimer un joueur";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(8, 70);
+            this.button1.Location = new System.Drawing.Point(21, 70);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(137, 23);
             this.button1.TabIndex = 7;
-            this.button1.Text = "Choisir une question";
+            this.button1.Text = "Ajouter un joueur";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // label3

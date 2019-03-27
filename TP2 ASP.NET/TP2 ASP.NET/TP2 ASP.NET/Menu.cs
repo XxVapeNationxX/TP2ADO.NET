@@ -83,5 +83,11 @@ namespace TP2_ASP.NET
                 Start.Enabled = false;
             }
         }
+
+        private void Admin_Click(object sender, EventArgs e)
+        {
+            Admin admin = new Admin();
+            admin.ShowDialog();
+        }
     }
 }
