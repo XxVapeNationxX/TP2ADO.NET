@@ -124,8 +124,8 @@
             this.Joueur1Prenom.Name = "Joueur1Prenom";
             this.Joueur1Prenom.Size = new System.Drawing.Size(147, 29);
             this.Joueur1Prenom.TabIndex = 8;
-            this.Joueur1Prenom.TextChanged += new System.EventHandler(this.Joueur2_TextChanged);
-            this.Joueur1Prenom.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Joueur2_KeyPress);
+            this.Joueur1Prenom.TextChanged += new System.EventHandler(this.Menu_TextChanged);
+            this.Joueur1Prenom.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Menu_KeyPress);
             // 
             // Joueur2Prenom
             // 
@@ -134,8 +134,8 @@
             this.Joueur2Prenom.Name = "Joueur2Prenom";
             this.Joueur2Prenom.Size = new System.Drawing.Size(147, 29);
             this.Joueur2Prenom.TabIndex = 9;
-            this.Joueur2Prenom.TextChanged += new System.EventHandler(this.Joueur2_TextChanged);
-            this.Joueur2Prenom.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Joueur2_KeyPress);
+            this.Joueur2Prenom.TextChanged += new System.EventHandler(this.Menu_TextChanged);
+            this.Joueur2Prenom.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Menu_KeyPress);
             // 
             // Joueur3Prenom
             // 
@@ -144,8 +144,8 @@
             this.Joueur3Prenom.Name = "Joueur3Prenom";
             this.Joueur3Prenom.Size = new System.Drawing.Size(147, 29);
             this.Joueur3Prenom.TabIndex = 10;
-            this.Joueur3Prenom.TextChanged += new System.EventHandler(this.Joueur2_TextChanged);
-            this.Joueur3Prenom.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Joueur2_KeyPress);
+            this.Joueur3Prenom.TextChanged += new System.EventHandler(this.Menu_TextChanged);
+            this.Joueur3Prenom.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Menu_KeyPress);
             // 
             // Joueur4Prenom
             // 
@@ -154,8 +154,8 @@
             this.Joueur4Prenom.Name = "Joueur4Prenom";
             this.Joueur4Prenom.Size = new System.Drawing.Size(147, 29);
             this.Joueur4Prenom.TabIndex = 11;
-            this.Joueur4Prenom.TextChanged += new System.EventHandler(this.Joueur2_TextChanged);
-            this.Joueur4Prenom.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Joueur2_KeyPress);
+            this.Joueur4Prenom.TextChanged += new System.EventHandler(this.Menu_TextChanged);
+            this.Joueur4Prenom.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Menu_KeyPress);
             // 
             // Joueur1Nom
             // 
@@ -164,6 +164,8 @@
             this.Joueur1Nom.Name = "Joueur1Nom";
             this.Joueur1Nom.Size = new System.Drawing.Size(153, 29);
             this.Joueur1Nom.TabIndex = 12;
+            this.Joueur1Nom.TextChanged += new System.EventHandler(this.Menu_TextChanged);
+            this.Joueur1Nom.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Menu_KeyPress);
             // 
             // Joueur2Nom
             // 
@@ -172,6 +174,8 @@
             this.Joueur2Nom.Name = "Joueur2Nom";
             this.Joueur2Nom.Size = new System.Drawing.Size(153, 29);
             this.Joueur2Nom.TabIndex = 13;
+            this.Joueur2Nom.TextChanged += new System.EventHandler(this.Menu_TextChanged);
+            this.Joueur2Nom.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Menu_KeyPress);
             // 
             // Joueur3Nom
             // 
@@ -180,6 +184,8 @@
             this.Joueur3Nom.Name = "Joueur3Nom";
             this.Joueur3Nom.Size = new System.Drawing.Size(153, 29);
             this.Joueur3Nom.TabIndex = 14;
+            this.Joueur3Nom.TextChanged += new System.EventHandler(this.Menu_TextChanged);
+            this.Joueur3Nom.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Menu_KeyPress);
             // 
             // Joueur4Nom
             // 
@@ -188,6 +194,8 @@
             this.Joueur4Nom.Name = "Joueur4Nom";
             this.Joueur4Nom.Size = new System.Drawing.Size(153, 29);
             this.Joueur4Nom.TabIndex = 15;
+            this.Joueur4Nom.TextChanged += new System.EventHandler(this.Menu_TextChanged);
+            this.Joueur4Nom.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Menu_KeyPress);
             // 
             // label6
             // 

@@ -42,10 +42,11 @@ namespace TP2_ASP.NET
             Jeu.ShowDialog();
         }
 
-        private void Joueur2_KeyPress(object sender, KeyPressEventArgs e)
+        private void Menu_TextChanged(object sender, EventArgs e)
         {
-            if (!string.IsNullOrWhiteSpace(Joueur1Prenom.Text) && !string.IsNullOrWhiteSpace(Joueur2Prenom.Text))
-            {
+            if (!string.IsNullOrWhiteSpace(Joueur1Nom.Text) && !string.IsNullOrWhiteSpace(Joueur1Prenom.Text)
+                && !string.IsNullOrWhiteSpace(Joueur2Nom.Text) && !string.IsNullOrWhiteSpace(Joueur2Prenom.Text))
+                {
                 Start.Enabled = true;
             }
             else
@@ -54,9 +55,10 @@ namespace TP2_ASP.NET
             }
         }
 
-        private void Joueur2_TextChanged(object sender, EventArgs e)
+        private void Menu_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!string.IsNullOrWhiteSpace(Joueur1Prenom.Text) && !string.IsNullOrWhiteSpace(Joueur2Prenom.Text))
+            if (!string.IsNullOrWhiteSpace(Joueur1Nom.Text) && !string.IsNullOrWhiteSpace(Joueur1Prenom.Text)
+                && !string.IsNullOrWhiteSpace(Joueur2Nom.Text) && !string.IsNullOrWhiteSpace(Joueur2Prenom.Text))
             {
                 Start.Enabled = true;
             }
