@@ -40,5 +40,29 @@ namespace TP2_ASP.NET
                 User4.Text = "";
             }
         }
+
+        private void FinDeTour()
+        {
+            if (Fleche1.Enabled == true)
+            {
+                Fleche1.Enabled = false;
+                Fleche2.Enabled = true;
+            }
+            else if(Fleche2.Enabled == true)
+            {
+                Fleche2.Enabled = false;
+                Fleche3.Enabled = true;
+            }
+            else if (Fleche3.Enabled == true)
+            {
+                Fleche3.Enabled = false;
+                Fleche4.Enabled = true;
+            }
+            else if (Fleche4.Enabled == true)
+            {
+                Fleche4.Enabled = false;
+                Fleche1.Enabled = true;
+            }
+        }
     }
 }
