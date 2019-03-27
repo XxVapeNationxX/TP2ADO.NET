@@ -95,7 +95,7 @@
             // 
             this.User1.AutoSize = true;
             this.User1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.User1.Location = new System.Drawing.Point(36, 87);
+            this.User1.Location = new System.Drawing.Point(32, 86);
             this.User1.Name = "User1";
             this.User1.Size = new System.Drawing.Size(44, 16);
             this.User1.TabIndex = 1;
@@ -105,7 +105,7 @@
             // 
             this.User2.AutoSize = true;
             this.User2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.User2.Location = new System.Drawing.Point(36, 115);
+            this.User2.Location = new System.Drawing.Point(31, 115);
             this.User2.Name = "User2";
             this.User2.Size = new System.Drawing.Size(44, 16);
             this.User2.TabIndex = 2;
@@ -115,7 +115,7 @@
             // 
             this.User4.AutoSize = true;
             this.User4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.User4.Location = new System.Drawing.Point(36, 171);
+            this.User4.Location = new System.Drawing.Point(31, 171);
             this.User4.Name = "User4";
             this.User4.Size = new System.Drawing.Size(44, 16);
             this.User4.TabIndex = 3;
@@ -125,7 +125,7 @@
             // 
             this.User3.AutoSize = true;
             this.User3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.User3.Location = new System.Drawing.Point(36, 143);
+            this.User3.Location = new System.Drawing.Point(31, 143);
             this.User3.Name = "User3";
             this.User3.Size = new System.Drawing.Size(44, 16);
             this.User3.TabIndex = 4;
@@ -265,7 +265,7 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Enabled = false;
-            this.checkBox1.Location = new System.Drawing.Point(91, 89);
+            this.checkBox1.Location = new System.Drawing.Point(90, 89);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(15, 14);
             this.checkBox1.TabIndex = 21;
@@ -305,7 +305,7 @@
             // 
             this.checkBox5.AutoSize = true;
             this.checkBox5.Enabled = false;
-            this.checkBox5.Location = new System.Drawing.Point(91, 117);
+            this.checkBox5.Location = new System.Drawing.Point(90, 117);
             this.checkBox5.Name = "checkBox5";
             this.checkBox5.Size = new System.Drawing.Size(15, 14);
             this.checkBox5.TabIndex = 25;
@@ -345,7 +345,7 @@
             // 
             this.checkBox9.AutoSize = true;
             this.checkBox9.Enabled = false;
-            this.checkBox9.Location = new System.Drawing.Point(91, 145);
+            this.checkBox9.Location = new System.Drawing.Point(90, 145);
             this.checkBox9.Name = "checkBox9";
             this.checkBox9.Size = new System.Drawing.Size(15, 14);
             this.checkBox9.TabIndex = 29;
